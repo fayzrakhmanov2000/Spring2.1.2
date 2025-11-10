@@ -13,11 +13,11 @@ public class App {
         System.out.println(bean2.getMessage());
         Cat one =
                 (Cat) applicationContext.getBean("cat");
-        System.out.println(one.getCat());
+        System.out.println(one.getName());
 
         Cat two =
                 (Cat) applicationContext.getBean("cat");
-        System.out.println(two.getCat());
+        System.out.println(two.getName());
 
         System.out.println(bean1==bean2);
         System.out.println(one==two);

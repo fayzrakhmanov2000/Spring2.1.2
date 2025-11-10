@@ -1,11 +1,13 @@
 public class Cat {
-    private Cat cat;
-
-    public Cat getCat() {
-        return cat;
+    public String getName() {
+        return name;
     }
 
-    public void setCat(Cat cat) {
-        this.cat = cat;
+    public void setName(String name) {
+        this.name = name;
     }
+
+    private String name;
+
+
 }
